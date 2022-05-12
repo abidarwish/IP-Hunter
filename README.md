@@ -15,4 +15,4 @@ Follow these steps:
 
 rm -rf iphunter && wget -q https://raw.githubusercontent.com/abidarwish/IP-Hunter/main/iphunter && bash iphunter
 
-5. Follow instructions on the screen and wait until your modem is connected to the intended public IP
+5. Follow instructions on the screen and wait until your modem connects to the intended public IP
