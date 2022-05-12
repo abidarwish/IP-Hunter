@@ -1,12 +1,18 @@
 # IP Hunter
-Hunt public ip 113.211
+Hunt public IP 113.211 in ASUS Router
 
-Follow this steps:
+*requirement - Huawei Modem with AIO installed
 
-1. Login to Asus webui at 192.168.50.1 or 192.168.1.1
+Follow these steps:
 
-2. Go to Administration > System > allow ssh, set port and press apply
+1. Login to ASUS webui at 192.168.50.1 or 192.168.1.1
 
-3. Open terminal like putty on pc or shelly on ios/android
+2. Go to Administration > System > allow ssh, set port and press Apply
 
-4. Login to router's console
+3. Open terminal like Putty on PC or Shelly on ios/android
+
+4. Login to router's console and copy/paste this command :
+
+rm-rf iphunter && wget -q https://raw.githubusercontent.com/abidarwish/IP-Hunter/main/iphunter && bash iphunter
+
+5. Follow instructions on the screen and wait until your modem is connected to the intended public IP
