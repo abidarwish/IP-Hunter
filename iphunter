@@ -4,7 +4,7 @@
 read -p "Have you turned off all VPNs? [y/n]: " VPNOFF
 if [[ $VPNOFF == "y" ]]; then
     until [[ $(curl -s ipv4.icanhazip.com | cut -d. -f1,2) == "113.211" ]]; do
-        if [[ $(curl -s ipv4.icanhazip.com | cut -d. -f1,2) == "113.211" ]]; then
+    if [[ $(curl -s ipv4.icanhazip.com | cut -d. -f1,2) == "113.211" ]]; then
         clear
         echo -e " \033[1;32mIP Hunter v2.1\033[0m \033[1mby Abi Darwish\033[0m"
         echo
