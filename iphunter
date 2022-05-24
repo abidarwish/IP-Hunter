@@ -30,8 +30,9 @@ if [[ $VPNOFF == "y" ]]; then
         echo
         exit 0
     fi
-    printf "\n%-2s" "Hunting again in 5 seconds (press Ctrl+C to cancel)..."
+    printf "\n%-2s" "Hunting again in 15 seconds (press Ctrl+C to cancel)..."
     sleep 15
+    echo
     done
 else
     exit 0
