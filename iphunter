@@ -28,7 +28,7 @@ if [[ $VPNOFF == "y" ]]; then
         exit 0
     fi
     printf "\n%-2s" "Hunting again in 5 seconds (press Ctrl+C to cancel)..."
-    sleep 5
+    sleep 15
     done
 else
     exit 0
