@@ -13,6 +13,6 @@ Follow these steps:
 
 4. Login to router's console and copy/paste this command :
 
-rm -rf iphunter && wget -q https://raw.githubusercontent.com/abidarwish/IP-Hunter/main/iphunter && bash iphunter
+<code>rm -rf iphunter && wget -q https://raw.githubusercontent.com/abidarwish/IP-Hunter/main/iphunter && bash iphunter</code>
 
 5. Follow instructions on the screen and wait until your modem connects to the intended public IP
