@@ -1,7 +1,7 @@
 # IP Hunter
 Hunt public IP 113.211 in ASUS Router
 
-*requirement - Huawei Modem with AIO installed
+<I>*requirement - Huawei Modem with AIO installed</I>
 
 Follow these steps:
 
